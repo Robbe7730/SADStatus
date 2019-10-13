@@ -5,16 +5,10 @@ from app.app import db, models
 db.create_all()
 
 services = {
-    "Website": "https://zeus.ugent.be/",
-    "Haldis": "https://haldis.zeus.gent",
-    "Tab": "https://tab.zeus.gent",
-    "Tap": "https://tap.zeus.gent",
-    "Cammie": "https://zeus.ugent.be/cammie",
-    "Wiki": "https://zeus.ugent.be/wiki",
-    "Gamification": "https://zeus.ugent.be/game",
-    "Mattermost": "https://mattermost.zeus.gent",
-    "Cammiechat": "https://kelder.zeus.ugent.be/messages",
-    "Cat": "https://cat.zeus.gent"
+    "Website": "https://robbevanherck.be/",
+    "DelayMap": "https://delaymap.robbevanherck.be/",
+    "CommaFeed": "https://commafeed.robbevanherck.be/",
+    "Radicale": "https://radicale.robbevanherck.be/",
 }
 
 for name, url in services.items():
